@@ -68,7 +68,7 @@ git push -u origin main
 
 Your site will be live at:
 ```
-https://YOUR_USERNAME.github.io/social-hub/
+https://YOUR_USERNAME.github.io/-social-hub/
 ```
 (Takes ~2 minutes for the first deployment)
 
@@ -131,7 +131,7 @@ For deeper CSS changes, edit **`style.css`** → look for the `:root { }` block 
 2. Update `meta.canonicalUrl` to your real GitHub Pages URL:
 ```json
 "meta": {
-  "canonicalUrl": "https://YOUR_USERNAME.github.io/social-hub/"
+  "canonicalUrl": "https://YOUR_USERNAME.github.io/-social-hub/"
 }
 ```
 3. The QR code is **generated in the browser** from this URL — it updates automatically.  

@@ -19,7 +19,7 @@ const FALLBACK_DATA = {
   meta: {
     title: "Gejje's Marvella — Official Social Hub",
     description: "Connect with Gejje's Marvella across all platforms.",
-    canonicalUrl: "https://gejjesmarvella.github.io/social-hub/",
+    canonicalUrl: "https://gejjesmarvella.github.io/-social-hub/",
     ogImage: "assets/og-image.png"
   },
   theme: {
@@ -30,25 +30,25 @@ const FALLBACK_DATA = {
     bgDark: "#0D1612"
   },
   links: [
-    { id:"instagram",      title:"Instagram",        icon:"fa-brands fa-instagram",        url:"https://instagram.com/gejjesmarvella",         description:"Photos, Reels & Stories",          color:"#E1306C", gradient:"linear-gradient(135deg,#833AB4 0%,#FD1D1D 50%,#F77737 100%)" },
-    { id:"facebook",       title:"Facebook",         icon:"fa-brands fa-facebook",         url:"https://facebook.com/gejjesmarvella",          description:"Updates & Community",              color:"#1877F2" },
-    { id:"youtube",        title:"YouTube",          icon:"fa-brands fa-youtube",          url:"https://youtube.com/@gejjesmarvella",          description:"Procedures & Expert Tips",         color:"#FF0000" },
-    { id:"linkedin",       title:"LinkedIn",         icon:"fa-brands fa-linkedin",         url:"https://linkedin.com/company/gejjesmarvella", description:"Professional Network",             color:"#0A66C2" },
-    { id:"twitter",        title:"X (Twitter)",      icon:"fa-brands fa-x-twitter",        url:"https://x.com/gejjesmarvella",                description:"News & Announcements",             color:"#14171A" },
-    { id:"threads",        title:"Threads",          icon:"fa-brands fa-threads",          url:"https://threads.net/@gejjesmarvella",          description:"Join the Conversation",            color:"#101010" },
-    { id:"whatsapp",       title:"WhatsApp",         icon:"fa-brands fa-whatsapp",         url:"https://wa.me/919513366639",                  description:"Chat with Our Team",               color:"#25D366" },
-    { id:"google-business",title:"Google Business",  icon:"fa-brands fa-google",           url:"https://g.page/gejjesmarvella",               description:"Reviews & Business Info",          color:"#4285F4" },
-    { id:"google-maps",    title:"Google Maps",      icon:"fa-solid fa-map-location-dot",  url:"https://maps.google.com/?q=Gejjes+Marvella+Bengaluru",  description:"Find Our Clinic",                  color:"#EA4335" },
-    { id:"website",        title:"Official Website", icon:"fa-solid fa-globe",             url:"https://gejjesmarvella.com",                  description:"Treatments, Doctors & Appointments",color:"#1E6F5C" },
-    { id:"email",          title:"Email Us",         icon:"fa-solid fa-envelope",          url:"mailto:amritahongalleo@gmail.com",               description:"Send Us a Message",                color:"#EA4335" },
-    { id:"phone",          title:"Call Us",          icon:"fa-solid fa-phone",             url:"tel:+919513366639",                           description:"Speak to Our Team",                color:"#1E6F5C" }
+    { id: "instagram", title: "Instagram", icon: "fa-brands fa-instagram", url: "https://instagram.com/gejjesmarvella", description: "Photos, Reels & Stories", color: "#E1306C", gradient: "linear-gradient(135deg,#833AB4 0%,#FD1D1D 50%,#F77737 100%)" },
+    { id: "facebook", title: "Facebook", icon: "fa-brands fa-facebook", url: "https://facebook.com/gejjesmarvella", description: "Updates & Community", color: "#1877F2" },
+    { id: "youtube", title: "YouTube", icon: "fa-brands fa-youtube", url: "https://youtube.com/@gejjesmarvella", description: "Procedures & Expert Tips", color: "#FF0000" },
+    { id: "linkedin", title: "LinkedIn", icon: "fa-brands fa-linkedin", url: "https://linkedin.com/company/gejjesmarvella", description: "Professional Network", color: "#0A66C2" },
+    { id: "twitter", title: "X (Twitter)", icon: "fa-brands fa-x-twitter", url: "https://x.com/gejjesmarvella", description: "News & Announcements", color: "#14171A" },
+    { id: "threads", title: "Threads", icon: "fa-brands fa-threads", url: "https://threads.net/@gejjesmarvella", description: "Join the Conversation", color: "#101010" },
+    { id: "whatsapp", title: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.me/919513366639", description: "Chat with Our Team", color: "#25D366" },
+    { id: "google-business", title: "Google Business", icon: "fa-brands fa-google", url: "https://g.page/gejjesmarvella", description: "Reviews & Business Info", color: "#4285F4" },
+    { id: "google-maps", title: "Google Maps", icon: "fa-solid fa-map-location-dot", url: "https://maps.google.com/?q=Gejjes+Marvella+Bengaluru", description: "Find Our Clinic", color: "#EA4335" },
+    { id: "website", title: "Official Website", icon: "fa-solid fa-globe", url: "https://gejjesmarvella.com", description: "Treatments, Doctors & Appointments", color: "#1E6F5C" },
+    { id: "email", title: "Email Us", icon: "fa-solid fa-envelope", url: "mailto:amritahongalleo@gmail.com", description: "Send Us a Message", color: "#EA4335" },
+    { id: "phone", title: "Call Us", icon: "fa-solid fa-phone", url: "tel:+919513366639", description: "Speak to Our Team", color: "#1E6F5C" }
   ],
   contacts: [
-    { id:"call",          title:"Call Now",         icon:"fa-solid fa-phone",            url:"tel:+919513366639",                  color:"#1E6F5C", primary:true },
-    { id:"whatsapp-cta",  title:"WhatsApp",         icon:"fa-brands fa-whatsapp",        url:"https://wa.me/919513366639",         color:"#25D366", primary:true },
-    { id:"email-cta",     title:"Email",            icon:"fa-solid fa-envelope",         url:"mailto:amritahongalleo@gmail.com",     color:"#EA4335", primary:false },
-    { id:"directions-cta",title:"Directions",       icon:"fa-solid fa-map-location-dot", url:"https://maps.google.com/?q=Gejjes+Marvella+Bengaluru", color:"#4285F4", primary:false },
-    { id:"book",          title:"Book Appointment", icon:"fa-solid fa-calendar-check",   url:"tel:+919513366639", color:"#D4A843", primary:false }
+    { id: "call", title: "Call Now", icon: "fa-solid fa-phone", url: "tel:+919513366639", color: "#1E6F5C", primary: true },
+    { id: "whatsapp-cta", title: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.me/919513366639", color: "#25D366", primary: true },
+    { id: "email-cta", title: "Email", icon: "fa-solid fa-envelope", url: "mailto:gejjesmarvella@gmail.com", color: "#EA4335", primary: false },
+    { id: "directions-cta", title: "Directions", icon: "fa-solid fa-map-location-dot", url: "https://maps.google.com/?q=Gejjes+Marvella+Bengaluru", color: "#4285F4", primary: false },
+    { id: "book", title: "Book Appointment", icon: "fa-solid fa-calendar-check", url: "tel:+919513366639", color: "#D4A843", primary: false }
   ]
 };
 
@@ -101,7 +101,7 @@ function renderHero(data) {
 
   // Update page meta from JSON (nice if canonical URL is customised)
   if (data.meta) {
-    if (data.meta.title)       document.title = data.meta.title;
+    if (data.meta.title) document.title = data.meta.title;
     const descEl = document.querySelector('meta[name="description"]');
     if (descEl && data.meta.description) descEl.setAttribute('content', data.meta.description);
   }
@@ -124,9 +124,9 @@ function renderHero(data) {
 function buildLinkCard(link, index) {
   const a = document.createElement('a');
   if (link.url) {
-    a.href        = link.url;
-    a.target      = '_blank';
-    a.rel         = 'noopener noreferrer';
+    a.href = link.url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
   } else {
     a.href = '#';
     a.addEventListener('click', (e) => {
@@ -134,10 +134,10 @@ function buildLinkCard(link, index) {
       showToast(`We will be on ${link.title} soon! 🚀`);
     });
   }
-  a.className   = 'link-card';
-  a.role        = 'listitem';
+  a.className = 'link-card';
+  a.role = 'listitem';
   a.setAttribute('aria-label', `${link.title}${link.description ? ' — ' + link.description : ''} (opens in new tab)`);
-  a.id          = `link-${link.id}`;
+  a.id = `link-${link.id}`;
 
   // Store glow color for hover
   a.style.setProperty('--card-accent', link.color || 'var(--clr-primary)');
@@ -221,16 +221,16 @@ function renderLinks(data) {
  */
 function buildContactBtn(contact, index) {
   const a = document.createElement('a');
-  a.href       = contact.url;
-  a.className  = 'contact-btn' + (contact.primary ? ' primary' : '');
-  a.role       = 'listitem';
-  a.id         = `contact-${contact.id}`;
+  a.href = contact.url;
+  a.className = 'contact-btn' + (contact.primary ? ' primary' : '');
+  a.role = 'listitem';
+  a.id = `contact-${contact.id}`;
   a.setAttribute('aria-label', contact.title);
 
   // Determine if it opens in new tab (not tel:, mailto:)
   if (!contact.url.startsWith('tel:') && !contact.url.startsWith('mailto:')) {
     a.target = '_blank';
-    a.rel    = 'noopener noreferrer';
+    a.rel = 'noopener noreferrer';
   }
 
   // Set CSS variables for Apple Liquid Glass custom border/glow colors
@@ -287,12 +287,12 @@ function renderQRCode(url) {
   if (typeof QRCode !== 'undefined') {
     try {
       new QRCode(container, {
-        text:          url,
-        width:         220,
-        height:        220,
-        colorDark:     '#1E6F5C',
-        colorLight:    '#FFFFFF',
-        correctLevel:  QRCode.CorrectLevel.H
+        text: url,
+        width: 220,
+        height: 220,
+        colorDark: '#1E6F5C',
+        colorLight: '#FFFFFF',
+        correctLevel: QRCode.CorrectLevel.M
       });
     } catch (e) {
       console.warn('[QR] qrcodejs failed, falling back to API image.', e);
@@ -306,10 +306,10 @@ function renderQRCode(url) {
 /** Fallback: load QR as <img> from a free public API. */
 function renderQRFallback(container, url) {
   const img = document.createElement('img');
-  img.src   = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(url)}&color=1E6F5C&ecc=H`;
-  img.alt   = 'QR Code';
+  img.src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(url)}&color=1E6F5C&ecc=H`;
+  img.alt = 'QR Code';
   img.width = 220;
-  img.height= 220;
+  img.height = 220;
   img.setAttribute('crossorigin', 'anonymous');
   container.appendChild(img);
 }
@@ -322,9 +322,9 @@ function downloadQR() {
   const canvas = document.querySelector('#qr-code canvas');
   if (canvas) {
     try {
-      const link    = document.createElement('a');
+      const link = document.createElement('a');
       link.download = 'gejjes-marvella-qr-code.png';
-      link.href     = canvas.toDataURL('image/png');
+      link.href = canvas.toDataURL('image/png');
       link.click();
       showToast('QR code downloaded!');
       return;
@@ -336,10 +336,10 @@ function downloadQR() {
   // Fallback: download the img src
   const img = document.querySelector('#qr-code img');
   if (img) {
-    const link    = document.createElement('a');
+    const link = document.createElement('a');
     link.download = 'gejjes-marvella-qr-code.png';
-    link.href     = img.src;
-    link.target   = '_blank';
+    link.href = img.src;
+    link.target = '_blank';
     link.click();
     showToast('QR code downloaded!');
     return;
@@ -361,14 +361,15 @@ function shareHub(url, title) {
     copyToClipboard(url);
     return;
   }
-  
+
   if (shareOpts.style.display === 'none' || shareOpts.style.display === '') {
     shareOpts.style.display = 'block';
-    
+
     const encTitle = encodeURIComponent(title || "Gejje's Marvella — Social Hub");
-    const encUrl = encodeURIComponent(url);
+    const liveLink = "https://gejjesmarvella.github.io/-social-hub/";
+    const encUrl = encodeURIComponent(liveLink);
     const encText = encodeURIComponent("Connect with Gejje's Marvella Dermatology & Plastic Surgery Clinic!");
-    
+
     document.getElementById('share-wa').href = `https://wa.me/?text=${encText}%20${encUrl}`;
     document.getElementById('share-fb').href = `https://www.facebook.com/sharer/sharer.php?u=${encUrl}`;
     document.getElementById('share-tw').href = `https://twitter.com/intent/tweet?url=${encUrl}&text=${encText}`;
@@ -380,14 +381,15 @@ function shareHub(url, title) {
 }
 
 /** Copy text to clipboard with toast feedback. */
-async function copyToClipboard(text) {
+async function copyToClipboard() {
+  const liveLink = "https://gejjesmarvella.github.io/-social-hub/";
   try {
-    await navigator.clipboard.writeText(text);
+    await navigator.clipboard.writeText(liveLink);
     showToast('Link copied to clipboard! 🎉');
   } catch (err) {
     // Fallback for browsers without clipboard API
     const ta = document.createElement('textarea');
-    ta.value = text;
+    ta.value = liveLink;
     ta.style.cssText = 'position:fixed;opacity:0;pointer-events:none;';
     document.body.appendChild(ta);
     ta.select();
@@ -433,10 +435,10 @@ function getBrandLogoSVG(id) {
  * @param {HTMLElement} target — element to attach ripple to
  */
 function createRipple(event, target) {
-  const rect   = target.getBoundingClientRect();
-  const size   = Math.max(rect.width, rect.height);
-  const x      = (event.clientX ? event.clientX - rect.left : rect.width  / 2) - size / 2;
-  const y      = (event.clientY ? event.clientY - rect.top  : rect.height / 2) - size / 2;
+  const rect = target.getBoundingClientRect();
+  const size = Math.max(rect.width, rect.height);
+  const x = (event.clientX ? event.clientX - rect.left : rect.width / 2) - size / 2;
+  const y = (event.clientY ? event.clientY - rect.top : rect.height / 2) - size / 2;
 
   const ripple = document.createElement('span');
   ripple.className = 'ripple';
@@ -512,17 +514,16 @@ async function init() {
   renderLinks(data);
   renderContacts(data);
 
-  /* ── QR Code ───────────────────────────────────────────────────── */
-  const hubUrl = (data.meta && data.meta.canonicalUrl)
-    ? data.meta.canonicalUrl
-    : window.location.href;
+  /* ── QR Code & Share URL ───────────────────────────────────────── */
+  // Use the canonical URL from socials.json so that the QR and share links always point to the live GitHub site, even when testing locally.
+  const hubUrl = (data.meta && data.meta.canonicalUrl) ? data.meta.canonicalUrl : window.location.href;
 
   renderQRCode(hubUrl);
 
   /* ── QR action buttons ─────────────────────────────────────────── */
-  const shareBtn    = document.getElementById('share-btn');
+  const shareBtn = document.getElementById('share-btn');
   const downloadBtn = document.getElementById('download-qr-btn');
-  const copyBtn     = document.getElementById('copy-link-btn');
+  const copyBtn = document.getElementById('copy-link-btn');
 
   if (shareBtn) {
     shareBtn.addEventListener('click', () =>
@@ -579,23 +580,23 @@ async function init() {
 
   const callContact = document.getElementById('contact-call');
   if (callContact) callContact.addEventListener('click', openCallModal);
-  
+
   const bookContact = document.getElementById('contact-book');
   if (bookContact) bookContact.addEventListener('click', openCallModal);
 
   /* ── Show app, hide skeleton ───────────────────────────────────── */
   const skeleton = document.getElementById('loading-skeleton');
-  const app      = document.getElementById('app');
+  const app = document.getElementById('app');
 
   if (skeleton) {
-    skeleton.style.opacity    = '0';
+    skeleton.style.opacity = '0';
     skeleton.style.transition = 'opacity 0.3s ease';
     setTimeout(() => skeleton.remove(), 350);
   }
 
   if (app) {
     app.removeAttribute('hidden');
-    app.style.opacity    = '0';
+    app.style.opacity = '0';
     app.style.transition = 'opacity 0.35s ease';
     // Trigger reflow
     void app.offsetWidth;
