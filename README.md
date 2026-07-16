@@ -8,7 +8,7 @@
 ## 🔗 Live Site
 
 ```
-https://gejjesmarvella.github.io/social-hub/
+https://gejjesmarvella.github.io/-social-hub/
 ```
 
 ---
