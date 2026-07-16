@@ -81,7 +81,7 @@
       "id": "whatsapp",
       "title": "WhatsApp",
       "icon": "fa-brands fa-whatsapp",
-      "url": "https://wa.me/919513366639",
+      "url": "https://wa.me/919916249637",
       "description": "Chat with Our Team",
       "color": "#25D366"
     },
@@ -121,7 +121,7 @@
       "id": "phone",
       "title": "Call Us",
       "icon": "fa-solid fa-phone",
-      "url": "tel:+919513366639",
+      "url": "tel:+919916249637",
       "description": "Speak to Our Team",
       "color": "#1E6F5C"
     }
@@ -131,7 +131,7 @@
       "id": "call",
       "title": "Call Now",
       "icon": "fa-solid fa-phone",
-      "url": "tel:+919513366639",
+      "url": "tel:+919916249637",
       "color": "#1E6F5C",
       "primary": true
     },
@@ -139,7 +139,7 @@
       "id": "whatsapp-cta",
       "title": "WhatsApp",
       "icon": "fa-brands fa-whatsapp",
-      "url": "https://wa.me/919513366639",
+      "url": "https://wa.me/919916249637",
       "color": "#25D366",
       "primary": true
     },
@@ -163,7 +163,7 @@
       "id": "book",
       "title": "Book Appointment",
       "icon": "fa-solid fa-calendar-check",
-      "url": "tel:+919513366639",
+      "url": "tel:+919916249637",
       "color": "#D4A843",
       "primary": false
     }

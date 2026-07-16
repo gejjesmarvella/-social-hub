@@ -36,19 +36,19 @@ const FALLBACK_DATA = {
     { id: "linkedin", title: "LinkedIn", icon: "fa-brands fa-linkedin", url: "https://linkedin.com/company/gejjesmarvella", description: "Professional Network", color: "#0A66C2" },
     { id: "twitter", title: "X (Twitter)", icon: "fa-brands fa-x-twitter", url: "https://x.com/gejjesmarvella", description: "News & Announcements", color: "#14171A" },
     { id: "threads", title: "Threads", icon: "fa-brands fa-threads", url: "https://threads.net/@gejjesmarvella", description: "Join the Conversation", color: "#101010" },
-    { id: "whatsapp", title: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.me/919513366639", description: "Chat with Our Team", color: "#25D366" },
+    { id: "whatsapp", title: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.me/919916249637", description: "Chat with Our Team", color: "#25D366" },
     { id: "google-business", title: "Google Business", icon: "fa-brands fa-google", url: "https://g.page/gejjesmarvella", description: "Reviews & Business Info", color: "#4285F4" },
     { id: "google-maps", title: "Google Maps", icon: "fa-solid fa-map-location-dot", url: "https://maps.google.com/?q=Gejjes+Marvella+Bengaluru", description: "Find Our Clinic", color: "#EA4335" },
     { id: "website", title: "Official Website", icon: "fa-solid fa-globe", url: "https://gejjesmarvella.com", description: "Treatments, Doctors & Appointments", color: "#1E6F5C" },
     { id: "email", title: "Email Us", icon: "fa-solid fa-envelope", url: "mailto:amritahongalleo@gmail.com", description: "Send Us a Message", color: "#EA4335" },
-    { id: "phone", title: "Call Us", icon: "fa-solid fa-phone", url: "tel:+919513366639", description: "Speak to Our Team", color: "#1E6F5C" }
+    { id: "phone", title: "Call Us", icon: "fa-solid fa-phone", url: "tel:+919916249637", description: "Speak to Our Team", color: "#1E6F5C" }
   ],
   contacts: [
-    { id: "call", title: "Call Now", icon: "fa-solid fa-phone", url: "tel:+919513366639", color: "#1E6F5C", primary: true },
-    { id: "whatsapp-cta", title: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.me/919513366639", color: "#25D366", primary: true },
+    { id: "call", title: "Call Now", icon: "fa-solid fa-phone", url: "tel:+919916249637", color: "#1E6F5C", primary: true },
+    { id: "whatsapp-cta", title: "WhatsApp", icon: "fa-brands fa-whatsapp", url: "https://wa.me/919916249637", color: "#25D366", primary: true },
     { id: "email-cta", title: "Email", icon: "fa-solid fa-envelope", url: "mailto:gejjesmarvella@gmail.com", color: "#EA4335", primary: false },
     { id: "directions-cta", title: "Directions", icon: "fa-solid fa-map-location-dot", url: "https://maps.google.com/?q=Gejjes+Marvella+Bengaluru", color: "#4285F4", primary: false },
-    { id: "book", title: "Book Appointment", icon: "fa-solid fa-calendar-check", url: "tel:+919513366639", color: "#D4A843", primary: false }
+    { id: "book", title: "Book Appointment", icon: "fa-solid fa-calendar-check", url: "tel:+919916249637", color: "#D4A843", primary: false }
   ]
 };
 
