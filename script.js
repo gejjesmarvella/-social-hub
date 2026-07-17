@@ -584,6 +584,24 @@ async function init() {
   const bookContact = document.getElementById('contact-book');
   if (bookContact) bookContact.addEventListener('click', openCallModal);
 
+  /* ── Google Business Selector ────────────────────────────────────── */
+  const businessModal = document.getElementById('business-modal');
+  const businessModalCancel = document.getElementById('business-modal-cancel');
+
+  function openBusinessModal(e) {
+    e.preventDefault();
+    if (businessModal) businessModal.style.display = 'flex';
+  }
+
+  function closeBusinessModal() {
+    if (businessModal) businessModal.style.display = 'none';
+  }
+
+  if (businessModalCancel) businessModalCancel.addEventListener('click', closeBusinessModal);
+
+  const businessLink = document.getElementById('link-google-business');
+  if (businessLink) businessLink.addEventListener('click', openBusinessModal);
+
   /* ── Show app, hide skeleton ───────────────────────────────────── */
   const skeleton = document.getElementById('loading-skeleton');
   const app = document.getElementById('app');
